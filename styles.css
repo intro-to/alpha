@@ -1,0 +1,237 @@
+/* Global Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f0a5a5;
+}
+
+.container {
+    width: 80%; /* You can adjust the width */
+    max-width: 1200px; /* Maximum width to prevent the content from becoming too wide */
+    margin: 0 auto; /* Center the container */
+    padding: 20px; /* Add padding inside the container */
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header and Navigation */
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: #313131;
+    padding: 10px 0;
+    z-index: 100;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    color: #ff6347;
+}
+
+/* Hero Section */
+#hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 20px;
+    background-color: #3f5b77;
+    color: white;
+    text-align: left;
+}
+
+.hero-content {
+    max-width: 50%;
+}
+
+.hero-content h1 {
+    font-size: 48px;
+}
+
+.hero-content p {
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+.hero-content button a {
+    padding: 10px 20px;
+    background-color: #f55a3e;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.helo-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.social-icons {
+    margin-top: 20px;
+}
+
+.social-icons a {
+    margin: 0 10px;
+}
+
+/* Section Styles */
+section {
+    padding: 60px 20px;
+}
+
+h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+/* Styling for the CV section */
+#cv {
+    padding: 40px;
+    background-color: #bfb6f1;
+    margin: 20px 0;
+    border-radius: 8px;
+}
+
+#cv h2 {
+    text-align: center;
+    color: #181717;
+}
+
+#cv p {
+    text-align: center;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+form label {
+    font-size: 18px;
+    color: #444;
+}
+
+input[type="file"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    width: 60%;
+}
+
+button {
+    padding: 12px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
+.project-cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.project-card {
+    background-color: #858496;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 30%;
+}
+
+.project-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.project-card h3 {
+    font-size: 24px;
+}
+
+.project-card p {
+    font-size: 16px;
+}
+
+.project-card button {
+    padding: 10px;
+    background-color: #fc6f11;
+    color: rgb(253, 250, 250);
+    border: none;
+    border-radius: 5px;
+}
+
+/* Contact Section */
+#contact .social-icons a {
+    margin: 0 10px;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+    #hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .project-cards {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 100%;
+    }
+}
