@@ -4,7 +4,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #f0a5a5;
+    background-color: #f1dcdc;
 }
 
 .container {
@@ -31,7 +31,7 @@ header {
     width: 100%;
     top: 0;
     left: 0;
-    background-color: #313131;
+    background-color: #0f0f0f;
     padding: 10px 0;
     z-index: 100;
 }
@@ -86,11 +86,12 @@ nav ul li a:hover {
     font-size: 16px;
 }
 
-.helo-img {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    object-fit: cover;
+.hero-img {
+    width: 300px;               /* Set the width to 150px or adjust as needed */
+    height:300px;              /* Set the height to 150px, same as width to create a circle */
+    border-radius: 50%;         /* Make the image circular by applying 50% radius */
+    object-fit: cover;          /* Ensure the image fits the circle, without stretching */
+    margin-top: 10px;           /* Add some spacing at the top if needed */
 }
 
 .social-icons {
@@ -170,6 +171,7 @@ button:hover {
     display: flex;
     justify-content: space-between;
     gap: 20px;
+    
 }
 
 .project-card {
@@ -184,6 +186,7 @@ button:hover {
     width: 100%;
     height: auto;
     border-radius: 10px;
+    
 }
 
 .project-card h3 {
