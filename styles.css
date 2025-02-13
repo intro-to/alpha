@@ -219,6 +219,106 @@ footer {
     padding: 20px 0;
 }
 
+/* Testimonials Section Styling */
+#testimonials {
+    background-color: #fad0d0;
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .testimonial-cards {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+  }
+  
+  .testimonial-card {
+    width: 30%;
+    background-color: #b0b0b3;
+    padding: 0px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .testimonial-card p {
+    font-style:normal;
+    
+  }
+  
+  .testimonial-card strong {
+    display: block;
+    margin-top: 10px;
+    font-weight: normal;
+    color: #fdf9f9;
+  }
+  
+  /* Image Circle Styling */
+  .testimonial-image {
+    width: 100px; /* Adjust size as needed */
+    height: 100px;
+    margin: 0 auto 20px auto; /* Center the image and add spacing below */
+    overflow: hidden;
+    border-radius: 50%;
+  }
+  
+  .testimonial-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image fills the circle */
+  }
+  
+  /* Button Styling */
+  .testimonial-button {
+    margin-top: 30px;
+  }
+  
+  .testimonial-button button {
+    background-color: #007bff;
+    border: none;
+    padding: 15px 30px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .testimonial-button button a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .testimonial-button button:hover {
+    background-color: #0056b3;
+  }
+  
+
+  /* Button Styling */
+.testimonial-button {
+    margin-top: 30px;
+  }
+  
+  .testimonial-button button {
+    background-color: #007bff;
+    border: none;
+    padding: 15px 30px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .testimonial-button button a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .testimonial-button button:hover {
+    background-color: #0056b3;
+  }
+  
 /* Responsiveness */
 @media (max-width: 768px) {
     #hero {
